@@ -1,0 +1,44 @@
+﻿Build started 8/7/2014 5:19:37 PM.
+     1>Project "C:\work\Spatha Games\labs\pjproject-2.2.1\pjsip-apps\build\samples.vcxproj" on node 4 (Build target(s)).
+     1>Build:
+         nmake /NOLOGO /S /f Samples-vc.mak BUILD_MODE=debug-dynamic VC_VER=8 ARCH=win32
+         auddemo.c
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pj_init referenced in function _main
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pj_shutdown referenced in function _main
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pj_pool_create referenced in function _record
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pj_pool_release referenced in function _record
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pj_caching_pool_init referenced in function _main
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pj_caching_pool_destroy referenced in function _main
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pj_strerror referenced in function _app_perror
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_aud_dev_cap_name referenced in function _decode_caps
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_aud_subsys_init referenced in function _main
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_aud_subsys_get_pool_factory referenced in function _record
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_aud_dev_refresh referenced in function _main
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_aud_dev_count referenced in function _list_devices
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_aud_dev_get_info referenced in function _list_devices
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_aud_dev_default_param referenced in function _test_device
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_aud_stream_create referenced in function _record
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_aud_stream_start referenced in function _record
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_aud_stream_stop referenced in function _record
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_aud_stream_destroy referenced in function _record
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_aud_test referenced in function _test_device
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_port_get_frame referenced in function _wav_play_cb
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_port_put_frame referenced in function _wav_rec_cb
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_port_destroy referenced in function _record
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_wav_player_port_create referenced in function _play_file
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pjmedia_wav_writer_port_create referenced in function _record
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pj_log_set_level referenced in function _main
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pj_log_get_level referenced in function _list_devices
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pj_log_set_decor referenced in function _main
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pj_log_1 referenced in function _show_dev_info
+     1>auddemo.obj : error LNK2019: unresolved external symbol __imp__pj_log_3 referenced in function _list_devices
+     1>auddemo.obj : error LNK2001: unresolved external symbol __imp__pj_pool_factory_default_policy
+     1>..\bin\samples\i386-win32-vc8-debug-dynamic\auddemo.exe : fatal error LNK1120: 30 unresolved externals
+     1>NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.EXE"' : return code '0x2'
+         Stop.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: The command "nmake /NOLOGO /S /f Samples-vc.mak BUILD_MODE=debug-dynamic VC_VER=8 ARCH=win32" exited with code 2.
+     1>Done Building Project "C:\work\Spatha Games\labs\pjproject-2.2.1\pjsip-apps\build\samples.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.61
