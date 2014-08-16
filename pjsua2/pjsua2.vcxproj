@@ -44,9 +44,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <OutDir>.\output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <OutDir>.\output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -63,7 +65,12 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>pjsua-lib-i386-Win32-vc8-Debug-Dynamic.lib;pjsua2-lib-i386-Win32-vc8-Debug-Dynamic.lib;pjlib-i386-Win32-vc8-Debug-Dynamic.lib;pjlib-util-i386-Win32-vc8-Debug-Dynamic.lib;pjsip-core-i386-Win32-vc8-Debug-Dynamic.lib;pjnath-i386-Win32-vc8-Debug-Dynamic.lib;pjmedia-i386-Win32-vc8-Debug-Dynamic.lib;pjmedia-audiodev-i386-Win32-vc8-Debug-Dynamic.lib;pjsip-simple-i386-Win32-vc8-Debug-Dynamic.lib;pjsip-ua-i386-Win32-vc8-Debug-Dynamic.lib;libspeex-i386-Win32-vc8-Debug-Dynamic.lib;pjmedia-codec-i386-Win32-vc8-Debug-Dynamic.lib;libsrtp-i386-Win32-vc8-Debug-Dynamic.lib;libgsmcodec-i386-Win32-vc8-Debug-Dynamic.lib;libresample-i386-Win32-vc8-Debug-Dynamic.lib;libilbccodec-i386-Win32-vc8-Debug-Dynamic.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\pjsip\lib;..\pjlib-util\lib;..\pjlib\lib;..\pjnath\lib;..\pjmedia\lib;..\third_party\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
+    <PreBuildEvent>
+      <Command>ls ..\pjsip\lib</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -84,6 +91,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>.\pjsip\lib;..\pjsip\lib;..\..\pjsip\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>pjsua-lib$(TargetCPU)-$(PlatformName)-vc8-$(Configuration).lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

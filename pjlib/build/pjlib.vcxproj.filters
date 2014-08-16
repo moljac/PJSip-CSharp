@@ -2,21 +2,21 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{7ecf2977-5ee9-4d79-8b8c-81e9f7a453a8}</UniqueIdentifier>
+      <UniqueIdentifier>{68a0acc3-a3e1-48d9-8fcf-c612dc1df6ba}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Source Files\Other Targets">
-      <UniqueIdentifier>{56252d62-d134-4db0-846f-caf1dc675d96}</UniqueIdentifier>
+      <UniqueIdentifier>{85d58e64-8263-44c4-a4bc-4be8f26e4a42}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{c1c71035-fb03-44e2-8f52-49473028bb96}</UniqueIdentifier>
+      <UniqueIdentifier>{cde2eb06-65d6-4254-ae9b-3243a32656ef}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="Header Files\compat">
-      <UniqueIdentifier>{65c46991-85d5-47b5-9bdd-51008e37a0ab}</UniqueIdentifier>
+      <UniqueIdentifier>{004be4a3-69e5-4e28-ab19-12545c97cbb6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Inline Files">
-      <UniqueIdentifier>{e53516e3-f83d-46cd-b11b-a70686806514}</UniqueIdentifier>
+      <UniqueIdentifier>{06eaa5cc-11e7-4e5b-9540-e097b9fda986}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

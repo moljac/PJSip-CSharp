@@ -6,6 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
+namespace pjsua2 {
 
 public enum pjmedia_format_id {
   PJMEDIA_FORMAT_L16 = 0,
@@ -41,4 +42,6 @@ public enum pjmedia_format_id {
   PJMEDIA_FORMAT_MPEG1VIDEO = (((V << 24)|(1 << 16))|(P << 8))|M,
   PJMEDIA_FORMAT_MPEG2VIDEO = (((V << 24)|(2 << 16))|(P << 8))|M,
   PJMEDIA_FORMAT_MPEG4 = (((4 << 24)|(G << 16))|(P << 8))|M
+}
+
 }

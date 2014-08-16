@@ -10,31 +10,31 @@
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="crypto">
-      <UniqueIdentifier>{edb2c877-3abf-4fe5-a710-5d98a0539c15}</UniqueIdentifier>
+      <UniqueIdentifier>{e7a841cd-0082-40a6-8c21-bf91bd45f80c}</UniqueIdentifier>
     </Filter>
     <Filter Include="crypto\ae_xfm">
-      <UniqueIdentifier>{1874752d-9f21-466e-bfa3-11398dd711ab}</UniqueIdentifier>
+      <UniqueIdentifier>{e8baf6a6-0b65-4e19-993e-bef8e5b10c22}</UniqueIdentifier>
     </Filter>
     <Filter Include="crypto\cipher">
-      <UniqueIdentifier>{c751e682-0545-414d-98bd-8155e56add1d}</UniqueIdentifier>
+      <UniqueIdentifier>{e0640190-22c7-4d98-911f-edc0d14eafe6}</UniqueIdentifier>
     </Filter>
     <Filter Include="crypto\hash">
-      <UniqueIdentifier>{532747e1-9141-47be-ab90-467915d47d13}</UniqueIdentifier>
+      <UniqueIdentifier>{5bf649ac-a31f-40df-9cd3-f8d5179fcdd7}</UniqueIdentifier>
     </Filter>
     <Filter Include="crypto\kernel">
-      <UniqueIdentifier>{7102dc24-39bf-43e0-a722-62a405919cde}</UniqueIdentifier>
+      <UniqueIdentifier>{7bdb0ce9-224a-4d26-8580-051d0f405651}</UniqueIdentifier>
     </Filter>
     <Filter Include="crypto\math">
-      <UniqueIdentifier>{bdc6a20a-213c-4a54-aeb0-952639347159}</UniqueIdentifier>
+      <UniqueIdentifier>{07883c88-6b6e-4439-b7b2-91a1d7f154e0}</UniqueIdentifier>
     </Filter>
     <Filter Include="crypto\replay">
-      <UniqueIdentifier>{48b0e543-1c54-4493-858a-8dc7ae8a3aab}</UniqueIdentifier>
+      <UniqueIdentifier>{287115b4-f5e9-42e6-b561-8adfc321a4ad}</UniqueIdentifier>
     </Filter>
     <Filter Include="crypto\include">
-      <UniqueIdentifier>{d5a761b4-6c8b-4e00-9278-93476b0793da}</UniqueIdentifier>
+      <UniqueIdentifier>{3971bf9d-f784-4f3b-8ba6-1cb0daeb88c2}</UniqueIdentifier>
     </Filter>
     <Filter Include="crypto\rng">
-      <UniqueIdentifier>{8df809a8-071b-43a6-948f-cbf4b1c47f02}</UniqueIdentifier>
+      <UniqueIdentifier>{efc40ae6-f9de-4a00-b0ca-a359835a6a03}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

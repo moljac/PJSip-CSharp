@@ -2,20 +2,20 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{6945aca0-8275-4f0e-bd8c-d3949ec11df8}</UniqueIdentifier>
+      <UniqueIdentifier>{5f6e8217-73ae-4c29-8d5b-dd935f836507}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Source Files\common">
-      <UniqueIdentifier>{0ae6c2d3-b627-4efc-94c9-cf0e37637e7c}</UniqueIdentifier>
+      <UniqueIdentifier>{adc42cb8-a2eb-45e0-8589-e8da4e68c6f2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\decode">
-      <UniqueIdentifier>{55fad454-61ab-42ea-a22a-d0aeae341f25}</UniqueIdentifier>
+      <UniqueIdentifier>{811eb1cc-a604-40c0-a8a9-bf4151473ea0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\encode">
-      <UniqueIdentifier>{7b18d8ca-56b7-4e6b-a9e7-4518187fd6b4}</UniqueIdentifier>
+      <UniqueIdentifier>{dd5b83eb-db08-46f8-84cc-184a72654857}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{01aa3d7e-b01f-4d67-8445-b4036a8016ef}</UniqueIdentifier>
+      <UniqueIdentifier>{87084dce-7712-4bb1-ae02-56849c304374}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
   </ItemGroup>

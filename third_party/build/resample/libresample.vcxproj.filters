@@ -2,11 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{db7a624b-c0fa-4071-b05d-643f31bf3012}</UniqueIdentifier>
+      <UniqueIdentifier>{a8f21c63-9236-49f7-8fe7-6e71213fc250}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{62d833aa-195a-487a-b163-e3d9a4f2c9fc}</UniqueIdentifier>
+      <UniqueIdentifier>{1063f8f4-705c-400e-9eb8-2e42f803ad70}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
   </ItemGroup>

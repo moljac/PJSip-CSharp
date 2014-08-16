@@ -1,0 +1,1 @@
+swig -I../../../../pjlib/include -I../../../../pjlib-util/include -I../../../../pjmedia/include -I../../../../pjsip/include -I../../../../pjnath/include -w312 -c++  -csharp -o pjsua2_wrap.cpp ../pjsua2.i

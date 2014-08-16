@@ -2,29 +2,29 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{9e74e5ff-86a8-4138-a4e3-e6aef0f4140a}</UniqueIdentifier>
+      <UniqueIdentifier>{dc6ebc39-2483-4606-b27c-487434a9b60d}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Source Files\common">
-      <UniqueIdentifier>{7b6edd20-3604-4845-8394-dba92f377a38}</UniqueIdentifier>
+      <UniqueIdentifier>{1db84558-7fdf-47e1-93b8-59afed9fedba}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\hostapi">
-      <UniqueIdentifier>{2194e868-dd79-4e0b-9769-13c2382996d0}</UniqueIdentifier>
+      <UniqueIdentifier>{3195ed7c-31ce-4ef2-b1e5-469b5f6b1e72}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\hostapi\dsound">
-      <UniqueIdentifier>{7f5bd9f1-f84d-4bd5-993a-5ce66bdf4806}</UniqueIdentifier>
+      <UniqueIdentifier>{891f6c61-3014-4009-9049-6b475ac89303}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\hostapi\wmme">
-      <UniqueIdentifier>{604e502a-8aa0-4d0d-90dc-437631426517}</UniqueIdentifier>
+      <UniqueIdentifier>{46f9e356-1710-48bc-b344-d0653b4a2ab1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\os">
-      <UniqueIdentifier>{b5650ccd-751d-4af1-a656-cc5b1103d97c}</UniqueIdentifier>
+      <UniqueIdentifier>{e134e49f-b1b3-462d-af79-fa4e3cb85774}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\os\win">
-      <UniqueIdentifier>{684eaac3-542a-4f50-a510-8f43e9978328}</UniqueIdentifier>
+      <UniqueIdentifier>{1ffe96a2-d4c0-46dd-8913-c366d253690a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{92a800da-5d40-4544-a3af-7135face181d}</UniqueIdentifier>
+      <UniqueIdentifier>{3c078631-7eb6-42f3-80ef-c01ce243dc27}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
   </ItemGroup>

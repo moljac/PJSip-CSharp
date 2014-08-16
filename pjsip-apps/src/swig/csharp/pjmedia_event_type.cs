@@ -6,6 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
+namespace pjsua2 {
 
 public enum pjmedia_event_type {
   PJMEDIA_EVENT_NONE,
@@ -17,4 +18,6 @@ public enum pjmedia_event_type {
   PJMEDIA_EVENT_KEYFRAME_FOUND = (((F << 24)|(R << 16))|(F << 8))|I,
   PJMEDIA_EVENT_KEYFRAME_MISSING = (((M << 24)|(R << 16))|(F << 8))|I,
   PJMEDIA_EVENT_ORIENT_CHANGED = (((T << 24)|(N << 16))|(R << 8))|O
+}
+
 }
